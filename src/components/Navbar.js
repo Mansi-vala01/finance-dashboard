@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="navbar-brand">
         <span className="brand-icon">💸</span>
-        <span className="brand-text">MyFinance</span>
+        <span className="brand-text">MyFinance1</span>
       </div>
 
       <nav className="navbar-nav">
