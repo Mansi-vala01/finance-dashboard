@@ -1,3 +1,8 @@
+import React, { createContext, useContext, useState, useCallback } from "react";
+
+// Global app state using React Context API
+// Handles: transactions, filters, role-based access, dark mode
+// Note: using Context instead of Redux since state is simple enough
 // Global app state using React Context API
 // Handles: transactions, filters, role-based access, dark mode
 // Note: using Context instead of Redux since state is simple enoughimport React, { createContext, useContext, useState, useCallback } from "react";
