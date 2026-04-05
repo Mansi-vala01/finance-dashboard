@@ -141,7 +141,7 @@ Switch roles using the dropdown in the navbar.
 - Would like to add a monthly budget feature where user can set limits
 - Dark mode flickers slightly on first load
 
----
+
 
 ## 📝 License
 This project was built as a frontend assignment submission.
