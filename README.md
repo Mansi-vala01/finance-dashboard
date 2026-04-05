@@ -1,4 +1,4 @@
-# PaisaTracker — Personal Finance Dashboard
+# MyFinance — Personal Finance Dashboard
 
 A clean and interactive personal finance dashboard built with **React.js**, **Recharts**, and **CSS Variables** for full dark mode support.
 
