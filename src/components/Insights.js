@@ -56,7 +56,7 @@ export default function Insights() {
       <div className="page-header">
         <div>
           <h2 className="page-title">Insights</h2>
-          <p className="page-sub">Smart observations from your financial data</p>
+          <p className="page-sub">Based on your last 3 months of transactions</p>
         </div>
       </div>
 

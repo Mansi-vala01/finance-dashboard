@@ -13,8 +13,8 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-brand">
-        <span className="brand-icon">₹</span>
-        <span className="brand-text">FinTrack</span>
+        <span className="brand-icon">💸</span>
+        <span className="brand-text">MyFinance</span>
       </div>
 
       <nav className="navbar-nav">

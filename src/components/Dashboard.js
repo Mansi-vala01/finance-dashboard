@@ -16,7 +16,7 @@ export default function Dashboard() {
       <div className="page-header">
         <div>
           <h2 className="page-title">Dashboard</h2>
-          <p className="page-sub">Welcome back! Here's your financial overview.</p>
+          <p className="page-sub">Here's your spending summary for this quarter.</p>
         </div>
         {role === "admin" && (
           <span className="admin-badge">🔧 Admin Mode</span>

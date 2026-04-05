@@ -13,28 +13,28 @@ export default function SummaryCards() {
       value: fmt(totalBalance),
       icon: "💰",
       color: "card-balance",
-      sub: "Net position",
+      sub: "Current net worth",
     },
     {
       title: "Total Income",
       value: fmt(totalIncome),
       icon: "📈",
       color: "card-income",
-      sub: "All earnings",
+      sub: "Total money received",
     },
     {
       title: "Total Expenses",
       value: fmt(totalExpenses),
       icon: "📉",
       color: "card-expense",
-      sub: "All spending",
+      sub: "Total money spent",
     },
     {
       title: "Savings Rate",
       value: totalIncome > 0 ? Math.round(((totalIncome - totalExpenses) / totalIncome) * 100) + "%" : "0%",
       icon: "🎯",
       color: "card-savings",
-      sub: "Income saved",
+      sub: "% of income saved",
     },
   ];
 

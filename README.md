@@ -110,13 +110,18 @@ Switch roles using the dropdown in the navbar.
 
 ---
 
-## 🎨 Design Decisions
-
-- **CSS Variables** were used for theming instead of a CSS-in-JS library to keep bundle size small and demonstrate CSS skills
-- **React Context API** was chosen over Redux because the app state is simple enough — using Redux here would be over-engineering
-- **Recharts** was selected for its React-first API and good responsiveness out of the box
-- **Mock data** uses realistic Indian Rupee amounts and Indian-style transactions to feel authentic
-- **DM Sans + DM Mono** fonts chosen for a modern, financial-app aesthetic
+## 🎨 Why I Made These Choices
+ 
+- I used **React** because I wanted to learn component-based thinking and 
+  it is what most companies use.
+- I chose **Context API** instead of Redux because the data is not that 
+  complex. Redux felt like too much setup for a small project.
+- I used **Recharts** for charts because it was easy to integrate with 
+  React and had good documentation.
+- For styling I used plain CSS with variables — I avoided Tailwind because 
+  I wanted to practice writing CSS myself.
+- I added **dark mode** using CSS variables which was my first time doing 
+  it this way and I liked how clean it turned out.
 
 ---
 
@@ -125,6 +130,16 @@ Switch roles using the dropdown in the navbar.
 - Data is not persisted (resets on page refresh) — localStorage integration is straightforward to add
 - Only 3 months of mock data available for trend charts
 - No backend or authentication — role switching is frontend-only for demo purposes
+
+---
+
+## 🐛 Known Issues / Things I Would Improve
+ 
+- Data resets when page is refreshed — would add localStorage next
+- Charts don't look great on very small screens (below 360px width)
+- The role switcher is just a dropdown — in real app would use JWT auth
+- Would like to add a monthly budget feature where user can set limits
+- Dark mode flickers slightly on first load
 
 ---
 
